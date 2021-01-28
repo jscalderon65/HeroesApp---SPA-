@@ -1,11 +1,8 @@
-import React from 'react'
-
+import React from "react";
+import AppRouter from "./Routers/AppRouter";
+import "antd/dist/antd.css";
 const HeroesApp = () => {
-    return (
-        <div>
-            <h1>HeroesApp</h1>
-        </div>
-    )
-}
+  return <AppRouter />;
+};
 
-export default HeroesApp
+export default HeroesApp;
